@@ -80,6 +80,7 @@ class Player
       else
         for space in warrior.look(:backward)
           if space.captive?
+
   end
 
   def check_captive(warrior)
